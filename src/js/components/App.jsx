@@ -1,4 +1,5 @@
 import React from "react";
+import Profile from "./Profile.jsx"
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
           <h1>
             World
           </h1>
+          <Profile />
         </div>
 
       </div>

@@ -1,10 +1,12 @@
 import React from "react";
 import Section from "./section.jsx";
+import Header1 from "./Header1"
 
 class App extends React.Component {
   render() {
     return (
       <div>
+        <Header1/>
         <div>
           <h1>
             World

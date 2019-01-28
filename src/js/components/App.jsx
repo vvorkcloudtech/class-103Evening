@@ -1,4 +1,5 @@
 import React from "react";
+import Section from "./section.jsx";
 
 class App extends React.Component {
   render() {
@@ -8,9 +9,11 @@ class App extends React.Component {
           <h1>
             World
           </h1>
+          <Section/>
         </div>
-
+        
       </div>
+      
     );
   }
 }

@@ -4,7 +4,7 @@ class Header1 extends React.Component {
     render() {
         return (
           <div className="Header1">
-            <h1>XNXX.COM</h1>
+            <h1>google</h1>
             <p>World Class Porn</p>
           </div>
         );

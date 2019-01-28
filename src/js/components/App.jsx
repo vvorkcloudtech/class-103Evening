@@ -1,5 +1,6 @@
 import React from "react";
 import Section from "./section.jsx";
+import Profile from "./Profile.jsx"
 import Header from "./header";
 import Header1 from "./Header1"
 
@@ -15,6 +16,7 @@ class App extends React.Component {
             World
           </h1>
           <Section/>
+          <Profile />
         </div>
         
 

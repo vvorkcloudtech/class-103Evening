@@ -1,4 +1,12 @@
 div.MainForm{
-    background-color: $MainColor;
     height: auto;
+    background-color: white;
+}
+div.Left-Content{
+    background-color: $MainColor;
+    height: 500px;
+}
+div.Right-Content{
+    background-color: white;
+    height: 500px;
 }

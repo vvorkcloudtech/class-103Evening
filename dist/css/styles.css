@@ -1,4 +1,144 @@
-.app {
-  color: red; }
 
-/*# sourceMappingURL=styles.css.map*/
+body{
+    overflow-x: hidden;
+}
+
+input:focus{
+    color: #000 !important;
+    background: #fff !important;
+    border-radius: 20px;
+}
+
+/* ===============================
+        Left-Side
+=================================*/
+
+h1#logo{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #f67280;
+    text-align: center;
+    margin-top: 150px;
+}
+ 
+p#c{
+    position: absolute;
+    top: -150px;
+    left: -40px;
+    color: #f7c9cd2f;
+    font-weight: 800;
+    font-size: 700px;
+    transform: rotate(-30deg)
+}
+
+#left-side ul li{
+    font-family: 'KoHo', sans-serif;
+    list-style: none;
+    font-size: 25px;
+    color: #f67280;
+}
+
+#left-side ul li i{
+    font-size: 35px;
+    color: #f67280;
+}
+
+/* ==========================================
+        Right side
+===========================================*/
+
+div#editor {
+    width: 81%;
+    text-align: left;
+    color: rgb(56, 56, 56);
+}
+
+.fa {
+    color: #f6727f !important;
+}
+
+h1#creat{
+    font-family: 'Lobster', cursive;
+    margin-top: 80px;
+    color: #ffff !important;
+    text-align: center;
+}
+h3#heading{
+    font-family: 'KoHo', sans-serif;
+    color: #fff;
+}
+::placeholder{
+    font-family: 'KoHo', sans-serif;
+    font-size: 15px;
+    font-weight: 100 !important;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+/*    inputs    */
+
+input#title{
+    font-family: 'Paytone One', sans-serif;
+    width: 80%;
+    padding: 5px;
+    border:none;
+    font-size: 25px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-weight: 800;
+    color: #fff;
+}
+
+/*    Buttons   */
+#clear{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    background: #ffff !important;
+    color: #f67280;
+    outline: none;
+}
+#submit{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    background: #ffff !important;
+    color: #f67280;
+    outline: none;
+}
+#record{
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: #ffff;
+    color: #f67280;
+    outline: none;
+}
+
+#addrec{
+    position: relative;
+    top: 200px;
+    left: 43%;
+    border-radius: 15px;
+    background: #f67280;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    width: 130px;
+    padding: 20px;
+}
+
+/* ===============================
+    REsponsive
+================================*/
+
+@media only screen and (max-width: 1000px) {
+p#c{
+    display: none;
+}
+
+#left-side ul li{
+}
+
+  }

@@ -1,30 +1,30 @@
 import React from "react";
 
-class Post extends React.Component{
+class CreatPost extends React.Component{
     render(){
         return(
             <div>
-                  <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4" style="background-color: #fff;" id="left-side">
+                  <div className="container-fluid">
+        <div className="row">
+            <div className="col-md-4" id="left-side">
                 <p id="c">C</p>
                 <h1 id="logo">carrino</h1>
                 <br/><br/><br/>
                 <ul>
-                    <li><i class="fas fa-search">&nbsp;</i>Explorer your favourite topic.</li>
+                    <li><i className="fas fa-search">&nbsp;</i>Explorer your favourite topic.</li>
                     <br/>
-                    <li><i class="fas fa-comments">&nbsp;</i>Creat your own post and publish.</li>
+                    <li><i className="fas fa-comments">&nbsp;</i>Creat your own post and publish.</li>
                     <br/>
-                    <li><i class="far fa-thumbs-up">&nbsp;</i>Like, Comment & share the post.</li>
+                    <li><i className="far fa-thumbs-up">&nbsp;</i>Like, Comment and share the post.</li>
                 </ul>
                 
             <br/><br/><br/>
             </div>
 
-            <div class="col-md-8" style="background-color: #f67280;">
-                <div class="container-fluid">
+            <div className="col-md-8" id="right-side">
+                <div className="container-fluid">
                         <h1 id="creat">Creat a Post</h1>
-                    <div class="col-md-12 col-md-offset-1">
+                    <div className="col-md-12 col-md-offset-1">
                     <form name="formPractice">
                         {/* <!--For title--> */}
                         <h3 id="heading">Title</h3>
@@ -36,7 +36,7 @@ class Post extends React.Component{
 
                     <div id="editor">
                         {/* <!--this is the editor area--> */}
-                        <div id='edit' style="margin-top: 30px;">
+                        <div id="edit">
                         </div>
                         <br/><br/><br/>
                         <input type="button" id="submit" value="Submit."/>
@@ -68,4 +68,4 @@ class Post extends React.Component{
     }
 }
 
-export default Post;
+export default CreatPost;

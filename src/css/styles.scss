@@ -3,7 +3,12 @@
 @import './components/LoginPage.scss';
 @import './components/SocialIcon.scss';
 @import './components/SignUpForm.scss';
+@import './components/creatpost.scss';
+
 *{
     padding: 0;
     margin: 0;
+}
+body{
+    overflow-x: hidden;
 }

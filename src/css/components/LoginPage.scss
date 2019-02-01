@@ -1,12 +1,129 @@
 div.MainForm{
+    overflow: hidden;
     height: auto;
     background-color: white;
 }
 div.Left-Content{
     background-color: $MainColor;
-    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+    height:100vh ;
 }
 div.Right-Content{
     background-color: white;
-    height: 500px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+div.Left-Content span{
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 1;
+    color: #f76574;
+    top:  calc(50% - 155px);
+    user-select: none;
+    height:940px;
+    overflow: hidden;
+    font-weight: 700;
+    opacity: 0.8;
+    left: 50%;
+    font-size:880px;
+    font-family: $HFont;
+    transform: translate(-50%,-50%);
+}
+div.Left-Content div{
+    z-index: 2;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.Left-Content div h1{
+    position: absolute;
+    font-family: $HFont;
+    top: 48%;
+    font-weight: 700;
+    left: 52%;
+    letter-spacing: 15px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+}
+div.Right-Content h1{
+    color: $MainColor;
+    font-weight: 800 !important;
+    font-size: 60px;
+    order: 0;
+}
+div.Right-Content ul{
+    order: 1;
+    // margin-left: -30px;
+    list-style: none;
+}
+div.Right-Content ul li{
+    margin: 30px 0;
+}
+div.Right-Content ul li i{
+    color: $MainColor;
+    font-size: 20px;
+    opacity: 0.9;
+}
+div.Right-Content ul li:nth-of-type(1) i{
+    margin-right: 5px;
+}
+div.Right-Content ul li input{
+    border:none;
+    width: 350px;
+    outline: none;
+    border-bottom: 2px solid $MainColor;
+    margin-left: -20px;
+    transition: all .7s;
+    
+}
+div.Right-Content ul li input::placeholder{
+    font-family: $PFont;
+    opacity: .5;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+div.Right-Content ul li input:focus{
+    border : 2px solid $MainColor;
+    padding: 10px 0;
+    border-radius: 20px;
+    transition: all .7s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+div.Right-Content ul li span{
+    color: $SecondaryColor;
+    font-family: $HFont;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+div.Right-Content ul li span span{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+div.Right-Content button{
+    transition: all 1s;
+    border: 1px solid white;
+    background-color: $MainColor;
+    color: white;
+    padding: 8px 30px;
+    // align-self: center;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    // font-weight: 600;
+    font-family: $PFont;
+    order: 2;
+}
+div.Right-Content button:hover{
+    background-color: white;
+    color: $MainColor;
+    transition: all 1s;
+    border : 1px solid $MainColor;
 }

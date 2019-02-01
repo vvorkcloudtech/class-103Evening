@@ -1,0 +1,18 @@
+ul.SocialIcons{
+    font-size: 25px;
+    position: absolute;
+    top: 92%;
+    left: 49%;
+    z-index: 2;
+    transform: translateX(-50%)
+}
+ul.SocialIcons li{
+    color: white;
+    transition: all 1s;
+    margin: 10px 15px 10px 0;
+}
+ul.SocialIcons li:hover{
+    transition: all 1s;
+    color: $SecondaryColor;
+    cursor: pointer;
+}

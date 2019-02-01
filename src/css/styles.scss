@@ -1,3 +1,9 @@
 @import "./variables/variables.scss";
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,900|Roboto:400,500');
 @import './components/LoginPage.scss';
+@import './components/SocialIcon.scss';
+@import './components/SignUpForm.scss';
+*{
+    padding: 0;
+    margin: 0;
+}

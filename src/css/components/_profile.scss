@@ -151,255 +151,255 @@ h4.name-description{
 }
 
 
-/* ============================
-        Responsive media
-================================*/
+// /* ============================
+//         Responsive media
+// ================================*/
 
-@media(max-width: 1024px) {
+// @media(max-width: 1024px) {
 
 
-    /* ==================================
-            cover Area
-    ===================================*/
+//     /* ==================================
+//             cover Area
+//     ===================================*/
     
-    .coverbg{
-        background: url("../img/cover.jpg") fixed;
-        width:100%;
-        height:280px;
-        color: #fff;
-    }
+//     .coverbg{
+//         background: url("../img/cover.jpg") fixed;
+//         width:100%;
+//         height:280px;
+//         color: #fff;
+//     }
     
-    /* ======================
-        Profile pic
-    =======================*/
+//     /* ======================
+//         Profile pic
+//     =======================*/
     
-    .dot {
-        position: absolute;
-        top: 120px;
-        left: 50px;
-        height: 280px;
-        width: 280px;
-    }
-    .dot .fa-camera{
-        position: absolute;
-        top: 218px;
-    }
-    /*=============================
-        about of the profile 
-    ==============================*/
+//     .dot {
+//         position: absolute;
+//         top: 120px;
+//         left: 50px;
+//         height: 280px;
+//         width: 280px;
+//     }
+//     .dot .fa-camera{
+//         position: absolute;
+//         top: 218px;
+//     }
+//     /*=============================
+//         about of the profile 
+//     ==============================*/
     
-    .num{
-        font-weight: 700;
-        font-size: 18px;
-    }   
-    .status{
-        margin-left: 12%;
-        margin-top: 10px;
-    }
+//     .num{
+//         font-weight: 700;
+//         font-size: 18px;
+//     }   
+//     .status{
+//         margin-left: 12%;
+//         margin-top: 10px;
+//     }
     
-    .status li{
-        width: 83px;
-        height: 80px;
-        margin-left: 15px;
-        padding: 10px;
-        background: #fff;
-    }
+//     .status li{
+//         width: 83px;
+//         height: 80px;
+//         margin-left: 15px;
+//         padding: 10px;
+//         background: #fff;
+//     }
     
-    /* =============================
-        Profile Name Area
-    ================================ */
+//     /* =============================
+//         Profile Name Area
+//     ================================ */
     
-    .name-data{
-        position: relative;
-        top: 120px;
-        left: 90px;
-    }
-    h1.profile-name{
-        font-weight: 600;
-        color: #fff;
-        font-size: 30px;
-    }
+//     .name-data{
+//         position: relative;
+//         top: 120px;
+//         left: 90px;
+//     }
+//     h1.profile-name{
+//         font-weight: 600;
+//         color: #fff;
+//         font-size: 30px;
+//     }
     
-    h4.name-description{
-        color: #fff;
-        font-size: 15px;
-    }
+//     h4.name-description{
+//         color: #fff;
+//         font-size: 15px;
+//     }
     
-    /*================================
-                About Area
-    ==================================*/
+//     /*================================
+//                 About Area
+//     ==================================*/
     
-    .about{
-        position: relative;
-        top: 101px;
-        left: -70px;
-    }
+//     .about{
+//         position: relative;
+//         top: 101px;
+//         left: -70px;
+//     }
     
-    .about-me-h3{
-        color: #f67280;
-        font-size: 20px;
-    }
-    .about-data{
-        margin-top: 40px;
-    }
-    .panel-body ul li{
-        list-style: none;
-    }
-    .panel-body ul li:nth-of-type(odd){
-        margin-top: 18px;
-        font-weight: 600;
-    }
-    .panel-body ul li:nth-of-type(even){
-        margin-left: 15px;
-        margin-top: 5px;
-    }
+//     .about-me-h3{
+//         color: #f67280;
+//         font-size: 20px;
+//     }
+//     .about-data{
+//         margin-top: 40px;
+//     }
+//     .panel-body ul li{
+//         list-style: none;
+//     }
+//     .panel-body ul li:nth-of-type(odd){
+//         margin-top: 18px;
+//         font-weight: 600;
+//     }
+//     .panel-body ul li:nth-of-type(even){
+//         margin-left: 15px;
+//         margin-top: 5px;
+//     }
     
-    /* =============================
-            post area
-    ===============================*/
-    /* main div */
-    .creat{
-        position: relative;
-        top: 142px;
-        width: 50%;
-        left: -85px;
-        height: auto;
-    }
-    .creat-heading{
-        color: #f67280;
-        padding: 5px;
-        font-size: 20px;
-    }
-    .post{
-        width: 100%;
-    }
-    .upload{
-        width: 100%;
-        padding: 20px 20px;
-    }
-    .post input{
-        width: 100%;
-        font-size: 15px;
-    }
+//     /* =============================
+//             post area
+//     ===============================*/
+//     /* main div */
+//     .creat{
+//         position: relative;
+//         top: 142px;
+//         width: 50%;
+//         left: -85px;
+//         height: auto;
+//     }
+//     .creat-heading{
+//         color: #f67280;
+//         padding: 5px;
+//         font-size: 20px;
+//     }
+//     .post{
+//         width: 100%;
+//     }
+//     .upload{
+//         width: 100%;
+//         padding: 20px 20px;
+//     }
+//     .post input{
+//         width: 100%;
+//         font-size: 15px;
+//     }
     
-      }
+//       }
     
-      /* ===============================
-        mobile responsive
-    ==================================*/
+//       /* ===============================
+//         mobile responsive
+//     ==================================*/
     
     
-    @media(min-width: 375px) {
+//     @media(min-width: 375px) {
         
     
-    /* ==================================
-            cover Area
-    ===================================*/
+//     /* ==================================
+//             cover Area
+//     ===================================*/
     
-    .coverbg{
-        background: url("../img/cover.jpg") fixed;
-        width:100%;
-        height:280px;
-        color: #fff;
-    }
+//     .coverbg{
+//         background: url("../img/cover.jpg") fixed;
+//         width:100%;
+//         height:280px;
+//         color: #fff;
+//     }
     
-    /* ======================
-        Profile pic
-    =======================*/
+//     /* ======================
+//         Profile pic
+//     =======================*/
     
-    .dot {
-        position: absolute;
-        top: 120px;
-        left: 60px;
-        height: 250px;
-        width: 250px;
-    }
-    .dot .fa-camera{
-        position: absolute;
-        top: 190px;
-        left: 105px;
-    }
-    /*=============================
-        about of the profile 
-    ==============================*/
+//     .dot {
+//         position: absolute;
+//         top: 120px;
+//         left: 60px;
+//         height: 250px;
+//         width: 250px;
+//     }
+//     .dot .fa-camera{
+//         position: absolute;
+//         top: 190px;
+//         left: 105px;
+//     }
+//     /*=============================
+//         about of the profile 
+//     ==============================*/
     
-    .num{
-        font-weight: 700;
-        font-size: 18px;
-    }   
-    .status{
-        position: relative;
-        top: 70px;
-        left: 08px;
-    }
+//     .num{
+//         font-weight: 700;
+//         font-size: 18px;
+//     }   
+//     .status{
+//         position: relative;
+//         top: 70px;
+//         left: 08px;
+//     }
     
-    .status li{
-        width: 83px;
-        height: 80px;
-        margin-left: 22px;
-        margin-bottom: 18px;
-        padding: 10px;
-        background: #fff;
-    }
+//     .status li{
+//         width: 83px;
+//         height: 80px;
+//         margin-left: 22px;
+//         margin-bottom: 18px;
+//         padding: 10px;
+//         background: #fff;
+//     }
     
-    /* =============================
-        Profile Name Area
-    ================================ */
+//     /* =============================
+//         Profile Name Area
+//     ================================ */
     
-    .name-data{
-        position: relative;
-        top: 80px;
-        left: 90px;
-    }
-    h1.profile-name{
-        font-weight: 600;
-        color: #fff;
-        font-size: 30px;
-    }
+//     .name-data{
+//         position: relative;
+//         top: 80px;
+//         left: 90px;
+//     }
+//     h1.profile-name{
+//         font-weight: 600;
+//         color: #fff;
+//         font-size: 30px;
+//     }
     
-    h4.name-description{
-        color: #fff;
-        font-size: 15px;
-    }
+//     h4.name-description{
+//         color: #fff;
+//         font-size: 15px;
+//     }
     
-    /*================================
-                About Area
-    ==================================*/
+//     /*================================
+//                 About Area
+//     ==================================*/
     
-    .about{
-        position: relative;
-        top: 70px;
-        left: 12px;
-        width: 330px;
-    }
+//     .about{
+//         position: relative;
+//         top: 70px;
+//         left: 12px;
+//         width: 330px;
+//     }
     
-    /* =============================
-            post area
-    ===============================*/
-    /* main div */
-    .creat{
-        position: relative;
-        top: 50px;
-        left: 12px;
-        width: 330px;
-        height: auto;
-    }
-    .creat-heading{
-        color: #f67280;
-        padding: 5px;
-        font-size: 20px;
-    }
-    .post{
-        width: 100%;
-    }
-    .upload{
-        width: 100%;
-        padding: 20px 20px;
-    }
-    .post input{
-        width: 100%;
-        font-size: 15px;
-    }
+//     /* =============================
+//             post area
+//     ===============================*/
+//     /* main div */
+//     .creat{
+//         position: relative;
+//         top: 50px;
+//         left: 12px;
+//         width: 330px;
+//         height: auto;
+//     }
+//     .creat-heading{
+//         color: #f67280;
+//         padding: 5px;
+//         font-size: 20px;
+//     }
+//     .post{
+//         width: 100%;
+//     }
+//     .upload{
+//         width: 100%;
+//         padding: 20px 20px;
+//     }
+//     .post input{
+//         width: 100%;
+//         font-size: 15px;
+//     }
     
     
-    }
+//     }

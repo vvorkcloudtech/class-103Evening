@@ -1,5 +1,5 @@
 
-input:focus{
+input#title:focus{
     color: #000 !important;
     background: #fff !important;
     border-radius: 20px;
@@ -53,7 +53,7 @@ div#edit {
 }
 
 .fa {
-    color: #f6727f !important;
+    color: #f6727f;
 }
 
 h1#creat{

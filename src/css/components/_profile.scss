@@ -1,0 +1,151 @@
+
+.profile-body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #f67280;
+}
+
+/* ==================================
+        cover Area
+===================================*/
+
+.coverbg{
+    background: url("../img/cover.jpg") fixed;
+    width:100%;
+    height:400px;
+    color: #fff;
+}
+
+/* =============================
+    Profile Name Area
+================================ */
+
+.name-data{
+    position: relative;
+    top: 140px;
+    left: 150px;
+}
+h1.profile-name{
+    font-weight: 800;
+    color: #fff;
+}
+
+h4.name-description{
+    color: #fff;
+}
+
+/* ======================
+    Profile pic
+=======================*/
+
+.dot {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    height: 300px;
+    width: 300px;
+    background: url("../img/me.png");
+    box-shadow: 0px 0px 15px #fff;
+    border-radius: 50%;
+    border: 8px solid #eee;
+}
+.dot .fa-camera{
+    position: absolute;
+    top: 238px;
+    left: 125px;
+    font-size: 30px;
+    color: #f67280;
+    text-shadow:0px 0px 8px #eee;
+    cursor: pointer;
+}
+/*=============================
+    about of the profile 
+==============================*/
+
+.num{
+    font-weight: 900;
+    font-size: 25px;
+    color: #f67280;
+}
+.status{
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.status li{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    float: left;
+    padding: 18px;
+    border: 1px solid #fff;
+    list-style: none;
+    box-shadow: 0px 0px 10px #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    color: #f67280;
+}
+
+/*================================
+            About Area
+==================================*/
+
+.about{
+    position: relative;
+    top: 101px;
+}
+.about-me-h3{
+    color: #f67280;
+    font-size: 25px;
+}
+.about-data{
+    margin-top: 40px;
+}
+.panel-body ul li{
+    list-style: none;
+}
+.panel-body ul li:nth-of-type(odd){
+    margin-top: 20px;
+    font-weight: 500;
+    color: #f67280;
+}
+.panel-body ul li:nth-of-type(even){
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+/* =============================
+        post area
+===============================*/
+/* main div */
+.creat{
+    position: relative;
+    top: 140px;
+    height: auto;
+}
+.creat-heading{
+    color: #f67280;
+    padding: 5px;
+    font-size: 25px;
+}
+.post{
+    width: 100%;
+}
+.upload{
+    width: 100%;
+    padding: 40px 30px;
+}
+.post input{
+    width: 100%;
+    background: #fff;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    color: .5e5e5e;
+    outline: none;
+}
+
+.post input:hover{
+    color: #f67280;
+}

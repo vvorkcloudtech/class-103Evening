@@ -1,144 +1,458 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,700,900|Roboto:400,500);div.MainForm {
+  overflow: hidden;
+  height: auto;
+  background-color: white; }
 
-body{
-    overflow-x: hidden;
-}
+div.Left-Content {
+  background-color: #F67280;
+  position: relative;
+  box-sizing: border-box;
+  height: 100vh; }
 
-input:focus{
-    color: #000 !important;
-    background: #fff !important;
-    border-radius: 20px;
-}
+div.Right-Content {
+  background-color: white;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column; }
+
+div.Left-Content span {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 1;
+  color: #f76574;
+  top: calc(50% - 155px);
+  user-select: none;
+  height: 940px;
+  overflow: hidden;
+  font-weight: 700;
+  opacity: 0.8;
+  left: 50%;
+  font-size: 880px;
+  font-family: "Poppins", sans-serif;
+  transform: translate(-50%, -50%); }
+
+div.Left-Content div {
+  z-index: 2;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+div.Left-Content div h1 {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  top: 48%;
+  font-weight: 700;
+  left: 52%;
+  letter-spacing: 15px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px; }
+
+div.Right-Content h1 {
+  color: #F67280;
+  font-weight: 800 !important;
+  font-size: 60px;
+  order: 0; }
+
+div.Right-Content ul {
+  order: 1;
+  list-style: none; }
+
+div.Right-Content ul li {
+  margin: 30px 0; }
+
+div.Right-Content ul li i {
+  color: #F67280;
+  font-size: 20px;
+  opacity: 0.9; }
+
+div.Right-Content ul li:nth-of-type(1) i {
+  margin-right: 5px; }
+
+div.Right-Content ul li input {
+  border: none;
+  width: 350px;
+  outline: none;
+  border-bottom: 2px solid #F67280;
+  margin-left: -20px;
+  transition: all .7s; }
+
+div.Right-Content ul li input::placeholder {
+  font-family: "Roboto", sans-serif;
+  opacity: .5;
+  letter-spacing: 1px;
+  font-size: 15px; }
+
+div.Right-Content ul li input:focus {
+  border: 2px solid #F67280;
+  padding: 10px 0;
+  border-radius: 20px;
+  transition: all .7s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); }
+
+div.Right-Content ul li span {
+  color: #6C6F76;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px; }
+
+div.Right-Content ul li span span {
+  color: cornflowerblue;
+  cursor: pointer; }
+
+div.Right-Content button {
+  transition: all 1s;
+  border: 1px solid white;
+  background-color: #F67280;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  order: 2; }
+
+div.Right-Content button:hover {
+  background-color: white;
+  color: #F67280;
+  transition: all 1s;
+  border: 1px solid #F67280; }
+
+ul.SocialIcons {
+  font-size: 25px;
+  position: absolute;
+  top: 92%;
+  left: 49%;
+  z-index: 2;
+  transform: translateX(-50%); }
+
+ul.SocialIcons li {
+  color: white;
+  transition: all 1s;
+  margin: 10px 15px 10px 0; }
+
+ul.SocialIcons li:hover {
+  transition: all 1s;
+  color: #6C6F76;
+  cursor: pointer; }
+
+div.MainSignUp {
+  height: auto;
+  width: 100%; }
+
+div.MainSignUp div.row div.SignUpLeft {
+  height: 100vh;
+  background-color: white; }
+
+div.MainSignUp div.row div.SignUpLeft div.InnerContent {
+  width: 100%;
+  height: 98%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex; }
+
+div.MainSignUp div.row div.SignUpLeft div.InnerContent h1 {
+  color: #F67280;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 800; }
+
+div.MainSignUp div.row div.SignUpLeft div.InnerContent ul {
+  list-style: none; }
+
+div.MainSignUp div.row div.SignUpLeft div.InnerContent ul li {
+  padding: 10px 5px 10px 10px;
+  display: flex;
+  color: #F67280; }
+
+div.MainSignUp div.row div.SignUpLeft div.InnerContent ul li i {
+  font-size: 40px;
+  margin-right: 30px;
+  margin-left: 15px;
+  margin-top: 5px; }
+
+div.MainSignUp div.row div.SignUpLeft div.InnerContent ul li span {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500; }
+
+div.MainSignUp div.row div.SignUpRight {
+  background-color: #F67280;
+  min-height: 100vh; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 45px; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form {
+  align-self: flex-start;
+  max-width: 70%;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px !important;
+  letter-spacing: 2px; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form label {
+  font-size: 22px;
+  cursor: pointer;
+  letter-spacing: 0;
+  user-select: none; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form input {
+  width: 100%;
+  outline: none;
+  opacity: .7;
+  font-size: 16px;
+  transition: all 1s;
+  margin-bottom: 20px;
+  border: none;
+  padding: 3px 0;
+  border-bottom: 1px solid white;
+  background-color: transparent; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form input:last-of-type {
+  width: 20px;
+  position: relative;
+  top: 5px;
+  height: 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  outline: none; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form input::placeholder {
+  color: white;
+  opacity: .6; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form input:focus {
+  padding: 8px 0;
+  transition: all 1s; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form input + span {
+  font-family: "Roboto", sans-serif; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form input + span span {
+  cursor: pointer;
+  font-weight: 500; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form button {
+  border: 2px solid #F67280;
+  transition: all 1s;
+  color: #F67280;
+  background-color: white;
+  padding: 5px 40px;
+  outline: none;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  user-select: none; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: all 1s;
+  cursor: pointer; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form button + span {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  transition: all 1s;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #F67280;
+  user-select: none;
+  padding: 5px 10px;
+  position: relative;
+  border-radius: 5px;
+  left: 57%; }
+
+div.MainSignUp div.row div.SignUpRight div.InnerContent form button + span:hover {
+  border-color: white;
+  transition: all 1s; }
+
+input:focus {
+  color: #000 !important;
+  background: #fff !important;
+  border-radius: 20px; }
 
 /* ===============================
         Left-Side
 =================================*/
+h1#logo {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: #f67280;
+  text-align: center;
+  margin-top: 150px; }
 
-h1#logo{
-    font-family: 'Lobster', cursive;
-    font-size: 50px;
-    color: #f67280;
-    text-align: center;
-    margin-top: 150px;
-}
- 
-p#c{
-    position: absolute;
-    top: -150px;
-    left: -40px;
-    color: #f7c9cd2f;
-    font-weight: 800;
-    font-size: 700px;
-    transform: rotate(-30deg)
-}
+p#c {
+  position: absolute;
+  top: -150px;
+  left: -40px;
+  color: #f7c9cd2f;
+  font-weight: 800;
+  font-size: 700px;
+  transform: rotate(-30deg); }
 
-#left-side ul li{
-    font-family: 'KoHo', sans-serif;
-    list-style: none;
-    font-size: 25px;
-    color: #f67280;
-}
+#left-side {
+  background-color: #fff; }
 
-#left-side ul li i{
-    font-size: 35px;
-    color: #f67280;
-}
+#left-side ul li {
+  font-family: 'KoHo', sans-serif;
+  list-style: none;
+  font-size: 25px;
+  color: #f67280; }
+
+#left-side ul li i {
+  font-size: 35px;
+  color: #f67280; }
 
 /* ==========================================
         Right side
 ===========================================*/
+div#edit {
+  width: 81%;
+  text-align: left;
+  color: #383838;
+  margin-top: 30px; }
 
-div#editor {
-    width: 81%;
-    text-align: left;
-    color: rgb(56, 56, 56);
-}
+h1#creat {
+  font-family: 'Lobster', cursive;
+  margin-top: 80px;
+  color: #ffff !important;
+  text-align: center; }
 
-.fa {
-    color: #f6727f !important;
-}
+h3#heading {
+  font-family: 'KoHo', sans-serif;
+  color: #fff; }
 
-h1#creat{
-    font-family: 'Lobster', cursive;
-    margin-top: 80px;
-    color: #ffff !important;
-    text-align: center;
-}
-h3#heading{
-    font-family: 'KoHo', sans-serif;
-    color: #fff;
-}
-::placeholder{
-    font-family: 'KoHo', sans-serif;
-    font-size: 15px;
-    font-weight: 100 !important;
-    color: rgba(255, 255, 255, 0.856);
-}
+::placeholder {
+  font-family: 'KoHo', sans-serif;
+  font-size: 15px;
+  font-weight: 100 !important;
+  color: rgba(255, 255, 255, 0.856); }
+
+#right-side {
+  background-color: #f67280; }
 
 /*    inputs    */
-
-input#title{
-    font-family: 'Paytone One', sans-serif;
-    width: 80%;
-    padding: 5px;
-    border:none;
-    font-size: 25px;
-    background: transparent;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    font-weight: 800;
-    color: #fff;
-}
+input#title {
+  font-family: 'Paytone One', sans-serif;
+  width: 80%;
+  padding: 5px;
+  border: none;
+  font-size: 25px;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  font-weight: 800;
+  color: #fff; }
 
 /*    Buttons   */
-#clear{
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    font-weight: 800;
-    background: #ffff !important;
-    color: #f67280;
-    outline: none;
-}
-#submit{
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    font-weight: 800;
-    background: #ffff !important;
-    color: #f67280;
-    outline: none;
-}
-#record{
-    padding: 10px 15px;
-    border-radius: 15px;
-    background: #ffff;
-    color: #f67280;
-    outline: none;
-}
+#clear {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  background: #ffff !important;
+  color: #f67280;
+  outline: none; }
 
-#addrec{
-    position: relative;
-    top: 200px;
-    left: 43%;
-    border-radius: 15px;
-    background: #f67280;
-    color: #fff;
-    outline: none;
-    cursor: pointer;
-    width: 130px;
-    padding: 20px;
-}
+#submit {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  background: #ffff !important;
+  color: #f67280;
+  outline: none; }
+
+#record {
+  padding: 10px 15px;
+  border-radius: 15px;
+  background: #ffff;
+  color: #f67280;
+  outline: none; }
+
+#addrec {
+  position: relative;
+  top: 200px;
+  left: 43%;
+  border-radius: 15px;
+  background: #f67280;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  width: 130px;
+  padding: 20px; }
 
 /* ===============================
     REsponsive
 ================================*/
-
 @media only screen and (max-width: 1000px) {
-p#c{
-    display: none;
-}
+  p#c {
+    display: none; } }
 
-#left-side ul li{
-}
+.counter {
+  display: inline-block; }
+  .counter .innerCounter {
+    width: 25rem; }
+    .counter .innerCounter p {
+      display: inline-block;
+      margin-right: 2rem;
+      margin-left: 1rem;
+      font-weight: bold; }
+    .counter .innerCounter div {
+      display: inline-block;
+      font-size: 2.8rem !important;
+      cursor: pointer;
+      margin-left: 1rem;
+      margin-right: 2.5rem;
+      position: relative;
+      user-select: none; }
+      .counter .innerCounter div span {
+        margin-left: .8rem; }
+      .counter .innerCounter div i {
+        color: rgba(108, 111, 118, 0.7); }
+        .counter .innerCounter div i:hover {
+          color: #F67280;
+          transform: scale(1.2);
+          transition: .35s; }
 
-  }
+.checked {
+  color: #F67280 !important; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=styles.css.map*/

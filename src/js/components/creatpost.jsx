@@ -1,4 +1,5 @@
 import React from "react";
+import $ from 'jquery';
 
 class CreatPost extends React.Component{
     render(){
@@ -25,13 +26,13 @@ class CreatPost extends React.Component{
                 <div className="container-fluid">
                         <h1 id="creat">Creat a Post</h1>
                     <div className="col-md-12 col-md-offset-1">
-                    <form name="formPractice">
-                        {/* <!--For title--> */}
+                    {/* <form name="formPractice">
+                        <!--For title-->
                         <h3 id="heading">Title</h3>
                         <input id="title" type="text" name="title" placeholder="Enter the Title here..."/>
-                        {/* <!-- <input id="para" type="text" name="paragraph" placeholder="Add a post..."/> --> */}
+                        <input id="para" type="text" name="paragraph" placeholder="Add a post..."/> 
                         <br/><br/><br/>
-                    </form>
+                    </form> */}
                     <h3 id="heading">Content</h3>
 
                     <div id="editor">

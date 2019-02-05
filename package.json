@@ -40,6 +40,8 @@
     "webpack-dev-server": "^2.11.3"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "create-react-class": "^15.6.3",
+    "express": "^4.16.4",
+    "react-froala-wysiwyg": "^2.9.2"
   }
 }

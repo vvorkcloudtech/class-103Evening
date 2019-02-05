@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 class SignUpForm extends Component {
     DataStore=(e)=>{
         e.preventDefault();
@@ -46,7 +47,7 @@ class SignUpForm extends Component {
                             <input type="checkbox"/><span>I agree with <span>Terms&Conditions</span></span>
                             <br/>
                             <button type="submit">Sign Up</button>
-                            <span>Sign In</span>
+                            <span><Link to='/Login' >Sign In</Link></span>
                         </form>
                     </div>
                     </div>

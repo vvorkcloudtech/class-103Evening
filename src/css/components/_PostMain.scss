@@ -1,0 +1,81 @@
+div.postmainpage img{
+    margin: 10px auto;
+    margin-bottom: 60px;
+}
+div.PostPage h1{
+    font-family: $HFont;
+    // text-transform: uppercase;
+    font-weight: 900;
+    margin: 30px 0;
+    // letter-spacing: 1px;
+    // opacity: .9;
+    text-align: center;
+    font-size: 40px;
+}
+div.PostPage div.row div.Post{
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.PostPage div.row div.Post img{
+    height: 340px;
+    // align-self: center;
+    width: 400px;
+    box-shadow: 1px 1px  5px #D8DADb;
+    transition: all .3s;
+    border-radius:7px !important;
+}
+div.PostPage div.row div.Post img:hover{
+    // filter: grayscale(50%);
+    transform: scale(1.005);
+    transition: all 1s;
+    cursor: pointer;
+}
+div.PostPage div.row div.Post span{
+    color: #6c5b7b;
+    font-size: 1.8rem;
+    font-family: $HFont;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    align-self: left !important;
+    margin-top: -10px;
+}
+div.PostPage div.row div.Post span:nth-of-type(2){
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 15px;
+    color: #999;
+    font-weight: 700;
+}
+div.PostPage div.row div.Post span:nth-of-type(2) span{
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    margin-left: 5px;
+}
+div.PostPage div.row div.Post p.Post-Desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #999;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-family: $HFont;
+    text-align: left;
+    font-weight: 300;
+    box-sizing: border-box;
+    display: inline;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+div hr.PostLine{
+    opacity: .6;
+    height: 1px;
+    // background-color: $MainColor;
+}

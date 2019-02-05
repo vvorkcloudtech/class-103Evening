@@ -1,8 +1,12 @@
 @import "./variables/variables.scss";
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,900|Roboto:400,500');
-@import './components/LoginPage.scss';
-@import './components/SocialIcon.scss';
-@import './components/SignUpForm.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,600,400,500,700,900|Roboto:400,500');
+@import './components/PostMain';
+@import './components/NewsLetters';
+@import './components/LoginPage';
+@import './components/SocialIcon';
+@import './components/SignUpForm';
+@import './components/Footer';
+@import './components/Menubar';
 *{
     padding: 0;
     margin: 0;

@@ -86,22 +86,26 @@ div.Right-Content ul li input{
 }
 div.Right-Content ul li input::placeholder{
     font-family: $PFont;
-    opacity: .5;
-    letter-spacing: 1px;
-    font-size: 15px;
+    opacity: .3;
+    letter-spacing: .5px;
+    font-size: 13px;
 }
 div.Right-Content ul li input:focus{
-    border : 2px solid $MainColor;
+    // border : 2px solid $MainColor;
     padding: 10px 0;
-    border-radius: 20px;
     transition: all .7s;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 div.Right-Content ul li span{
     color: $SecondaryColor;
     font-family: $HFont;
     font-weight: 600;
     letter-spacing: 0px;
+}
+div.Right-Content ul li span a{
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit
 }
 div.Right-Content ul li span span{
     color: cornflowerblue;
@@ -126,4 +130,9 @@ div.Right-Content button:hover{
     color: $MainColor;
     transition: all 1s;
     border : 1px solid $MainColor;
+}
+.iconicons{
+    position: relative !important;
+    z-index: 10 !important;
+    opacity: 1 !important;
 }

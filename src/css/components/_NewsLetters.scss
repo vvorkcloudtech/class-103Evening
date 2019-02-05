@@ -1,0 +1,110 @@
+div.Newsletter-Main{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 70px 0;
+    align-content: center;
+    justify-content: center;
+}
+div.Newsletter-Main h1{
+    font-weight: 700;
+    font-family: $HFont;
+    text-align: center;
+    display: block;
+    font-size: 26px;
+}
+div.Newsletter-Main p{
+    color: #999;
+    font-family: $PFont;
+    word-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+}
+div.Newsletter-Main input{
+    width: 45%;
+    border-radius: 5px;
+    padding: 9px;
+    outline: none;
+    border: 1.5px solid #D8DADb;
+    transition: all 1s;
+    // background-color: black;
+}
+div.Newsletter-Main input::placeholder{
+    color: #999 !important;
+    font-family: $HFont;
+    opacity: .6;
+}
+div.Newsletter-Main input:focus{
+    box-shadow: 1px 1px  2px #D8DADb;
+    border-color: $MainColor;
+    transition: all 1s;
+}
+div.Newsletter-Main button{
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: $MainColor;
+    font-family: $HFont;
+    outline: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+div.Newsletter-Main ul.Social{
+    margin: 10px auto;
+}
+div.Newsletter-Main ul.Social li{
+    list-style: none;
+    float: left;
+    margin: 10px 0;
+    margin-right: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+div.Newsletter-Main ul.Social li i{
+    transition: all .5s;
+    transform: rotateZ(0deg);
+    font-size: 20px;
+    margin-right: 10px;
+}
+div.Newsletter-Main ul.Social li span{
+    font-family: $HFont;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #999;
+    transition: all 1s;
+    font-weight: 500;
+}
+div.Newsletter-Main ul.Social li:nth-of-type(1) i{
+    color: #3b5998 ;
+}
+div.Newsletter-Main ul.Social li:nth-of-type(2) i{
+    color: $MainColor !important;
+}
+div.Newsletter-Main ul.Social li:nth-of-type(3) i{
+    color: #38A1F3;
+}
+div.Newsletter-Main ul.Social li:nth-of-type(4) i{
+    color: #0077B5;
+}
+div hr.NewsLine{
+    opacity: .8;
+    height: 1px;
+    background-color: $MainColor;
+    width: 100%;
+}
+div.Newsletter-Main ul.Social li:hover i{
+    transition: all 1s;
+    transform: rotateZ(360deg)
+}
+div.Newsletter-Main ul.Social li:hover span{
+    color: $MainColor;
+    transition: all 1s;
+    opacity: .8;
+}

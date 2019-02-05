@@ -405,7 +405,8 @@ iframe.fr-iframe {
 .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:hover::after,
 .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:focus::after,
 .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:focus::after {
-  border-top-color: #222222 !important;
+  /* border-top-color: #222222 !important; */
+  border-top-color: #eee !important; /* myself */
 }
 .fr-toolbar .fr-command.fr-btn.fr-dropdown::after,
 .fr-popup .fr-command.fr-btn.fr-dropdown::after {
@@ -414,7 +415,8 @@ iframe.fr-iframe {
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #222222;
+  /* border-top: 4px solid #222222; */
+  border-top: 4px solid #eee;  /* myself */
   right: 4px;
   top: 17px;
   content: "";
@@ -467,7 +469,9 @@ iframe.fr-iframe {
 .fr-desktop .fr-command:focus::after,
 .fr-desktop .fr-command.fr-btn-hover::after,
 .fr-desktop .fr-command.fr-expanded::after {
-  border-top-color: #222222 !important;
+  /* border-top-color: #222222 !important; */
+  border-top-color: #eee !important;  /* myself */
+  
 }
 .fr-desktop .fr-command.fr-selected {
   color: #222222;
@@ -661,7 +665,9 @@ body.prevent-scroll.fr-mobile {
   -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.19), 0 4px 3px 1px rgba(0, 0, 0, 0.14);
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.19), 0 4px 3px 1px rgba(0, 0, 0, 0.14);
   border: 0px;
-  border-top: 5px solid #222222;
+  /* border-top: 5px solid #222222; */
+  border-top: 5px solid #eee; /* myself */
+
   overflow: hidden;
   width: 90%;
   position: relative;

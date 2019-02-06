@@ -153,6 +153,10 @@ div.MainSignUp div.row div.SignUpRight div.InnerContent form button + span{
     border-radius: 5px;
     left: 57%;
 }
+div.MainSignUp div.row div.SignUpRight div.InnerContent form button + span a{
+    text-decoration: none;
+    color: inherit;
+}
 div.MainSignUp div.row div.SignUpRight div.InnerContent form button + span:hover{
     border-color: white;
     transition: all 1s;

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {
-  Table,
+    Table,
 } from "reactstrap";
 
 
-class Profile_Hero extends Component{
-     
+class Profile_Hero extends Component {
+
     data = [
         {
             detail: {
@@ -13,39 +13,32 @@ class Profile_Hero extends Component{
                 Age: '22',
                 Location: 'Lahore',
                 Experience: '1 year',
-                Degree : 'MSCIT',
-                Career : 'Mid-Level',
+                Degree: 'MSCIT',
+                Career: 'Mid-Level',
                 Phone: '123_456_ 789',
-                Email:'TalhaMughal@gmail',
+                Email: 'TalhaMughal@gmail',
                 Website: 'www.example.com'
             }
         }]
-
-
-    render (){
+    render() {
 
         let styles = {
-            fontSize: '12px'
+            fontSize: '13px'
         }
-
-        var result = this.data.map( (obj) =>{
+        var result = this.data.map((obj) => {
             return (
-                
-                
-                <div style={{marginTop:'15px'}}>
-                 <img
-                                src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-                                alt="avatar"
-                                style={{ width: '100%', borderRadius: '50%', border: '8px solid #eee'}}
-                            />
-                            <br/><br/><br/>
-                    <Table responsive style={{marginTop: '150ox'}}>
-                        <tbody style = {styles}>
-                            <tr>
+                <div style={{ marginTop: '15px' }}>
+                    <img
+                        src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        alt="avatar"
+                        style={{ width: '100%', borderRadius: '50%', border: '8px solid rgb(250, 181, 188)' }}
+                    />
+                    <br />
+                    <h1><strong style={{ textAlign: 'center', marginLeft: "18px" }}>Talha Mughal</strong></h1>
+                    <br /><br />
+                    <Table responsive style={{ marginTop: '150ox', background: 'rgb(250, 181, 188)', color: '#fff', borderRadius: '10px', border: 'none' }}>
+                        <tbody style={styles}>
 
-                                <th>NAME</th>
-                                <td>{obj.detail.Name}</td>
-                            </tr>
                             <tr >
 
                                 <th>AGE</th>
@@ -79,12 +72,8 @@ class Profile_Hero extends Component{
                                 <th>WEBSITE</th>
                                 <td>{obj.detail.Website}</td>
                             </tr>
-                            
-                            
-                            
                         </tbody>
                     </Table>
-                    
 
                     <Table>
                         <tbody>
@@ -96,25 +85,25 @@ class Profile_Hero extends Component{
 
                             <h5><strong>Social Profile</strong></h5>
 
-                            <tr style={{ fontSize: '30px'}}>
+                            <tr style={{ fontSize: '30px' }}>
                                 <td>
-                                <a href="https://www.facebook.com/profile.php?id=100007545195931" target="_blank"><i className="fab fa-facebook" style={{color:'#3b5998'}}/></a> 
-                                <a href="https://twitter.com/FahadAh0516" target="_blank"><i className="fab fa-twitter" style={{color:'#55acee', marginLeft:'25px'}}/></a>
-                                <a href="https://www.linkedin.com/in/fahad-ahmad-113906157/" target="_blank"><i className="fab fa-linkedin" style={{color:'#0077b5', marginLeft:'25px'}}/></a>
-                                <a href="https://plus.google.com/u/0/100753158571677385153" target="_blank"><i className="fab fa-google-plus" style={{color:'#d34836', marginLeft:'25px'}}/></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100007545195931" target="_blank"><i className="fab fa-facebook" style={{ color: '#3b5998' }} /></a>
+                                    <a href="https://twitter.com/FahadAh0516" target="_blank"><i className="fab fa-twitter" style={{ color: '#55acee', marginLeft: '25px' }} /></a>
+                                    <a href="https://www.linkedin.com/in/fahad-ahmad-113906157/" target="_blank"><i className="fab fa-linkedin" style={{ color: '#0077b5', marginLeft: '25px' }} /></a>
+                                    <a href="https://plus.google.com/u/0/100753158571677385153" target="_blank"><i className="fab fa-google-plus" style={{ color: '#d34836', marginLeft: '25px' }} /></a>
                                 </td>
-                                
+
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td></td>
                             </tr>
-                          
+
                         </tbody>
                     </Table>
 
-                   
+
                 </div>
             )
         })
@@ -122,8 +111,8 @@ class Profile_Hero extends Component{
         return (
             <div>{result}</div>
         )
-        
-        
+
+
     }
 }
 

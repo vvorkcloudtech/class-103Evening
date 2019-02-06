@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
-    import Profile_Navbar from './Profile_Navbar';
+    // import Profile_Navbar from './Profile_Navbar';
 
 class Gallery extends Component{
     render() {
         return(
             <div>
                 <br/><br/><br/><br/>
-            <h5><strong></strong></h5>
+            {/* <h5><strong></strong></h5>
                 <Profile_Navbar/>
-                <hr/>
+                <hr/> */}
 
-                <Card style={{backgroundColor:'#eee', padding: '13px'}}>
+                <Card style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
         <CardImg top width="100%" src="http://new.uouapps.com/remoticv/images/blog-img-1.jpg" alt="Card image cap" />
         <div><p style={{fontSize:'12px', padding:'20px'}}> <span> <i className="far fa-calendar"/>&nbsp;&nbsp;Aug 29, 2016</span>
          &nbsp;&nbsp;&nbsp;<span> <i className="far fa-user"/>&nbsp; Admin</span>
@@ -27,7 +27,7 @@ class Gallery extends Component{
       </Card>
       <br/>
 
-      <Card style={{backgroundColor:'#eee', padding: '13px'}}>
+      <Card style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
         <CardImg top width="100%" src="http://new.uouapps.com/remoticv/images/blog-img-2.jpg" alt="Card image cap" />
         <div><p style={{fontSize:'12px', padding:'20px'}}> <span> <i className="far fa-calendar"/>&nbsp;&nbsp;Aug 29, 2016</span>
          &nbsp;&nbsp;&nbsp;<span> <i className="far fa-user"/>&nbsp; Admin</span>
@@ -42,7 +42,7 @@ class Gallery extends Component{
       </Card>
       <br/>
 
-      <Card style={{backgroundColor:'#eee', padding: '13px', marginBottom:'30px'}}>
+      <Card style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
         <CardImg top width="100%" src="http://new.uouapps.com/remoticv/images/blog-img-3.jpg" alt="Card image cap" />
         <div><p style={{fontSize:'12px', padding:'20px'}}> <span> <i className="far fa-calendar"/>&nbsp;&nbsp;Aug 29, 2016</span>
          &nbsp;&nbsp;&nbsp;<span> <i className="far fa-user"/>&nbsp; Admin</span>
@@ -61,37 +61,37 @@ class Gallery extends Component{
 
       <Pagination aria-label="Page navigation example">
         <PaginationItem>
-          <PaginationLink previous href="#">
+          <PaginationLink previous href="#" style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
             Prev
           </PaginationLink>
         </PaginationItem>
         <PaginationItem>
-          <PaginationLink href="#">
+          <PaginationLink href="#" style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
             1
           </PaginationLink>
         </PaginationItem>
         <PaginationItem>
-          <PaginationLink href="#">
+          <PaginationLink href="#" style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
             2
           </PaginationLink>
         </PaginationItem>
         <PaginationItem>
-          <PaginationLink href="#">
+          <PaginationLink href="#" style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
             3
           </PaginationLink>
         </PaginationItem>
         <PaginationItem>
-          <PaginationLink href="#">
+          <PaginationLink href="#" style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
             4
           </PaginationLink>
         </PaginationItem>
         <PaginationItem>
-          <PaginationLink href="#">
+          <PaginationLink href="#" style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
             5
           </PaginationLink>
         </PaginationItem>
         <PaginationItem>
-          <PaginationLink next href="#">
+          <PaginationLink next href="#" style={{backgroundColor:'rgb(250, 181, 188)',color: '#fff', padding: '13px', borderRadius:'10px'}}>
            Next
           </PaginationLink>
         </PaginationItem>

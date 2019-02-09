@@ -10,8 +10,9 @@ input#title:focus{
 =================================*/
 
 h1#logo{
-    font-family: 'Lobster', cursive;
+    font-family: $HFont;
     font-size: 50px;
+    font-weight: 900;
     color: $MainColor;
     text-align: center;
     margin-top: 150px;
@@ -30,9 +31,9 @@ p#c{
     background-color: #fff;
 }
 #left-side ul li{
-    font-family: 'KoHo', sans-serif;
+    font-family: $PFont;
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #f67280;
 }
 
@@ -57,18 +58,19 @@ div#edit {
 }
 
 h1#creat{
-    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-family: $HFont;
     margin-top: 80px;
     color: #ffff !important;
     text-align: center;
 }
 h3#heading{
-    font-family: 'KoHo', sans-serif;
+    font-family: $PFont;
     color: #fff;
 }
 ::placeholder{
-    font-family: 'KoHo', sans-serif;
-    font-size: 15px;
+    font-family: $PFont;
+    font-size: 13px;
     font-weight: 100 !important;
     color: rgba(255, 255, 255, 0.856);
 }

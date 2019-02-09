@@ -1,16 +1,22 @@
 import React from 'react';
 import $ from 'jquery';
-
+import App from './App'
+import firebase from 'firebase/app';
+require('firebase/auth');
 class Profile extends React.Component {
+    logout(){
+        firebase.auth().signOut().then((response)=>{
+            console.log(response)
+        })
+    }
     render() {
         return (
             <div>
-                    
                 <div className="container-fluid profile-body">
                     <div className="row">
                         {/* <!---frist row--> */}
                         <div className="col-md-12 coverbg">
-                            <div className="dot"> <i className="fas fa-camera"></i> </div>
+                            <div className="dot"><img src={this.props.post.DpUrl} alt=""/></div>
                         </div>
                     </div>
 
@@ -28,6 +34,7 @@ class Profile extends React.Component {
                                 <li><span className="num">12</span><br />Likes</li>
                                 <li><span className="num">106</span><br />comments</li>
                                 <li><span className="num">20</span><br />favourates</li>
+                                <button onClick={this.logout}>Sign Out</button>
                             </ul>
                         </div>
                         <br /><br />
@@ -47,7 +54,7 @@ class Profile extends React.Component {
                                         <div className="panel-body">
                                             <ul>
                                                 <li>Email:</li>
-                                                <li>talhaaslam86@yahoo.com</li>
+                                                <li>{this.props.post.Email}</li>
                                                 <li>language:</li>
                                                 <li>English (UK)</li>
                                                 <li>Followers:</li>

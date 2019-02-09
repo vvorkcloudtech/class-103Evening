@@ -1,6 +1,6 @@
 import React from "react";
 import $ from 'jquery';
-
+import config from './firebase';
 class CreatPost extends React.Component{
     render(){
         return(
@@ -40,7 +40,7 @@ class CreatPost extends React.Component{
                         <div id="edit">
                         </div>
                         <br/><br/><br/>
-                        <input type="button" id="submit" value="Submit."/>
+                        <input type="button"  id="submit" value="Submit."/>
                         <input type="reset" id="clear" name="clear" value="Clear."/>
                        
                         {/* <!--br tags for height--> */}
@@ -55,9 +55,9 @@ class CreatPost extends React.Component{
             </div>
         </div>
         
-        <div id="output">
+        {/* <div id="output">
 
-        </div>
+        </div> */}
 
     </div>
 

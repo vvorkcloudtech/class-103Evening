@@ -35,8 +35,16 @@ nav.navbar-default{
             margin-top: 5px;
             font-size: 15px;
             transition: all 1s;
-            color: white !important;
             // text-transform: uppercase;
+          }
+          li a{
+            color: $SecondaryColor;
+            font-family: $HFont;
+            font-weight: 600;
+            margin-top: 5px;
+            font-size: 15px;
+            transition: all 1s;
+            text-transform: capitalize;
           }
           li:hover a{
             transition: all 1s;

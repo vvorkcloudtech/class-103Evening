@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import { relative } from 'path';
 import { Link } from 'react-router-dom';
+import firebase from 'firebase/app';
+require('firebase/auth');
 class LoginForm extends Component {
     state={
-        username:'',
+        email:'',
         password : ''
     }
     UserIconRemove=(e)=>{
@@ -23,10 +24,18 @@ class LoginForm extends Component {
         if(this.state.password == ''){
         $('.fa-key').css({'opacity': '1'});
         }
-        
+    }
+    LoginAuth=(e)=>{
+        let emails = $('#email').val()
+        let password = $('#password').val()
+        e.preventDefault();
+        firebase.auth().signInWithEmailAndPassword(emails, password).then((Response)=>{
+            console.log(Response.message)
+        }).catch((error)=>{
+            console.log(error.message)
+        })
     }
     render() {
-        console.log(this.state)
         return (
             <div className="container-fluid MainForm">
                 <div className="row">
@@ -47,17 +56,17 @@ class LoginForm extends Component {
                         <ul className="Input">
                             <li>
                                 <i className="fa fa-user"></i>
-                                <input type="text" id="email" onChange={this.UserIconRemove} placeholder="      Enter Username Here..." />
+                                <input type="email" required id="email" onChange={this.UserIconRemove} placeholder="      Enter Email Here..." />
                             </li>
                             <li>
                                 <i className="fa fa-key"></i>
-                                <input type="password" onChange={this.PassIconRemove} id="password"  placeholder="      Enter Password Here..." />
+                                <input type="password" required minLength="6" onChange={this.PassIconRemove} id="password"  placeholder="      Enter Password Here..." />
                             </li>
                             <li>
                                 <span><Link to="/Signup" >Create Account </Link>or <span> Forget Password?</span></span>
                             </li>
                         </ul>
-                        <button id="btn-login" type="submit">Sign In</button>
+                        <button id="btn-login" onClick={this.LoginAuth} type="submit">Sign In</button>
                     </div>
                 </div>
             </div>

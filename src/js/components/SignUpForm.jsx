@@ -1,16 +1,31 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import firebase from 'firebase/app';
+require('firebase/auth');
 class SignUpForm extends Component {
+    state = {
+        email: '',
+        password:'',
+    }
     DataStore=(e)=>{
         e.preventDefault();
-        let UserInputs = document.querySelectorAll('input');
-        let UserArray = Array.from(UserInputs);
-        let StateArray = [];
-        for(let i = 0; i<5; i++){
-            StateArray.push(UserArray[i].value)
-        }
-        localStorage.setItem('UserDetail', JSON.stringify(StateArray))
+        firebase.auth().createUserWithEmailAndPassword(this.state.email.trim(), this.state.password).then((response=>{
+        window.location("/step2")
+            console.log(response.message);
+        })).catch((error)=>{
+            console.log(error.message)
+        })
+        
     }
+    EmailSet=(e)=>{
+        e.preventDefault();
+        this.setState({email:e.target.value})
+    }
+    PassSet=(e)=>{
+        e.preventDefault();
+        this.setState({password:e.target.value})
+    }
+  
     render() {
         return (
             <div className="container-fluid MainSignUp">
@@ -28,22 +43,16 @@ class SignUpForm extends Component {
                     <div className="col-md-8 SignUpRight">
                     <div className="InnerContent">
                         <h1>Create a new account.</h1>
-                        <form className="container" onSubmit={this.DataStore}>
-                            <label htmlFor="FullName">Full Name</label>
-                            <br/>
-                            <input id="FullName" type="text" placeholder="Enter Your Full Name...."/>
-                            <label htmlFor="Username">Username</label>
-                            <br/>
-                            <input id="Username" type="text" placeholder="Enter Your Username...."/>
+                        <form autoComplete="off" className="container" onSubmit={this.DataStore}>
                             <label htmlFor="Email">Email</label>
                             <br/>
-                            <input id="Email" type="email" placeholder="Enter Your Email...."/>
+                            <input id="Email" required autoComplete="off" onChange={this.EmailSet} type="email" placeholder="Enter Your Email...."/>
                             <label htmlFor="Password">Password</label>
                             <br/>
-                            <input id="Password" type="password" placeholder="Enter Your Password...."/>
+                            <input id="Password" required autoComplete="off" type="password" onChange={this.PassSet} placeholder="Enter Your Password...."/>
                             <label htmlFor="ConfrimPassword">Confrim Password</label>
                             <br/>
-                            <input id="ConfrimPassword" type="text" placeholder="Enter Your Password Again...."/>
+                            <input id="ConfrimPassword" required autoComplete="off" type="password" placeholder="Enter Your Password Again...."/>
                             <input type="checkbox"/><span>I agree with <span>Terms&Conditions</span></span>
                             <br/>
                             <button type="submit">Sign Up</button>

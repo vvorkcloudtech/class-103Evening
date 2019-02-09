@@ -7,7 +7,9 @@ var Ivalue ="";
 $("#submit").on("click",function(){
     Ivalue = $("#title").val();
     $("#output").append("<h1>"+Ivalue+"</h1>");
-    $("#output").append($('#edit').froalaEditor('html.get'))
+    // $("#output").append
+    let CreatePostVal = ($('#edit').froalaEditor({toolbarInline: false}))
+    console.log(CreatePostVal)
 });
 
 

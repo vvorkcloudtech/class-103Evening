@@ -1,10 +1,4 @@
 
-input#title:focus{
-    color: #000 !important;
-    background: #fff !important;
-    border-radius: 20px;
-}
-
 /* ===============================
         Left-Side
 =================================*/
@@ -18,15 +12,6 @@ h1#logo{
     margin-top: 150px;
 }
  
-p#c{
-    position: absolute;
-    top: -150px;
-    left: -40px;
-    color: #f7c9cd2f;
-    font-weight: 800;
-    font-size: 700px;
-    transform: rotate(-30deg)
-}
 #left-side{
     background-color: #fff;
 }
@@ -46,16 +31,9 @@ p#c{
         Right side
 ===========================================*/
 
-div#edit {
-    width: 81%;
-    text-align: left;
-    color: rgb(56, 56, 56);
-    margin-top: 30px;
-}
-
-.fa {
-    color: #f6727f;
-}
+// .fa {
+//     color: #f6727f;
+// }
 
 h1#creat{
     font-weight: 700;
@@ -64,6 +42,7 @@ h1#creat{
     color: #ffff !important;
     text-align: center;
 }
+<<<<<<< HEAD
 h3#heading{
     font-family: $PFont;
     color: #fff;
@@ -74,27 +53,18 @@ h3#heading{
     font-weight: 100 !important;
     color: rgba(255, 255, 255, 0.856);
 }
+=======
+>>>>>>> 7ee8b07c3d5d22faf349617ad62d42cbffa9b011
 
 #right-side{
     background-color: $MainColor;
 }
 /*    inputs    */
 
-input#title{
-    font-family: 'Paytone One', sans-serif;
-    width: 80%;
-    padding: 5px;
-    border:none;
-    font-size: 25px;
-    background: transparent;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    font-weight: 800;
-    color: #fff;
-}
 
 /*    Buttons   */
 #clear{
+    margin-left: 10px;
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
@@ -112,33 +82,13 @@ input#title{
     color: #f67280;
     outline: none;
 }
-#record{
-    padding: 10px 15px;
-    border-radius: 15px;
-    background: #ffff;
-    color: #f67280;
-    outline: none;
-}
 
-#addrec{
-    position: relative;
-    top: 200px;
-    left: 43%;
-    border-radius: 15px;
-    background: #f67280;
-    color: #fff;
-    outline: none;
-    cursor: pointer;
-    width: 130px;
-    padding: 20px;
-}
+// /* ===============================
+//     REsponsive
+// ================================*/
 
-/* ===============================
-    REsponsive
-================================*/
-
-@media only screen and (max-width: 1000px) {
-p#c{
-    display: none;
-}
-}
+// @media only screen and (max-width: 1000px) {
+// p#c{
+//     display: none;
+// }
+// }

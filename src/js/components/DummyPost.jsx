@@ -11,6 +11,173 @@ const Post = [
 
             'postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi placeat impedit, ex, expedita, porro quae ipsam deleniti nisi fuga voluptas sit magnam rem? Vero nulla natus a ullam.`,
         },
+
+        comments: [
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+        ] ,
         
         aurthorDetail:{
             'postAurthorId': 'C001',
@@ -38,6 +205,173 @@ const Post = [
 
             'postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi placeat impedit, ex, expedita, porro quae ipsam deleniti nisi fuga voluptas sit magnam rem? Vero nulla natus a ullam.`,
         },
+
+        comments: [
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+        ] ,
         
         aurthorDetail:{
             'postAurthorId': 'C001',
@@ -65,6 +399,173 @@ const Post = [
 
             'postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi placeat impedit, ex, expedita, porro quae ipsam deleniti nisi fuga voluptas sit magnam rem? Vero nulla natus a ullam.`,
         },
+
+        comments: [
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+        ] ,
         
         aurthorDetail:{
             'postAurthorId': 'C001',
@@ -92,6 +593,173 @@ const Post = [
 
             'postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi placeat impedit, ex, expedita, porro quae ipsam deleniti nisi fuga voluptas sit magnam rem? Vero nulla natus a ullam.`,
         },
+
+        comments: [
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+            {
+                type:"mainComment",
+                personName:"Some Person",
+                personImgUrl:"https://www.someDummyUrl.com",
+                personProfileUrl:"https://www.someDummyUrl.com",
+                commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                commentTime:"22:23",
+                commentDate:"jan, 22 ,25",
+                commentReplies:[
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    },
+                    {
+                        type:"replyComment",
+                        personName:"Some Person",
+                        personImgUrl:"https://www.someDummyUrl.com",
+                        personProfileUrl:"https://www.someDummyUrl.com",
+                        commentContent:"postPreviewContent':`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam eligendi",
+                        commentTime:"22:23",
+                        commentDate:"jan, 22 ,25",
+                        
+                    }
+                ]
+            },
+        ] ,
         
         aurthorDetail:{
             'postAurthorId': 'C001',

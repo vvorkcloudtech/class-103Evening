@@ -8,9 +8,14 @@
 @import './components/SignUpFormStep2';
 @import './components/Footer';
 @import './components/Menubar';
+<<<<<<< HEAD
 @import './components/creatpost';
 @import './components/profile';
+=======
+@import './components/creatpost.scss';
+>>>>>>> 7ee8b07c3d5d22faf349617ad62d42cbffa9b011
 @import './components/LikeCounter';
+@import './components/Profile';
 
 *{
     padding: 0;

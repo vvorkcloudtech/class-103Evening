@@ -1,5 +1,6 @@
 // var path = require("path");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var webpack = require("webpack");
 
 module.exports = {
   entry: [`${__dirname}/src/index.jsx`, `${__dirname}/src/css/styles.scss`],
@@ -51,6 +52,21 @@ module.exports = {
           ]
         })
       },
+      {   test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+        use: "url-loader?limit=10000&mimetype=application/font-woff"
+      }, {
+        test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+        use: "url-loader?limit=10000&mimetype=application/font-woff"
+      }, {
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+        use: "url-loader?limit=10000&mimetype=application/octet-stream"
+      }, {
+        test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+        use: "file-loader"
+      }, {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        use: "url-loader?limit=10000&mimetype=image/svg+xml"
+      },
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
@@ -98,6 +114,11 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin({
       filename: "../css/styles.css"
-    })
+    }),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+})
   ]
+  
 };

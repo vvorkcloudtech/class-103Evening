@@ -25,7 +25,7 @@ class MenuBar extends Component {
                 <ul className="nav navbar-nav">
                   <li><Link to="/">Home</Link></li>
                   <li><Link to="">Categories</Link></li>
-                  <li><Link to="">Blog</Link></li>
+                  <li><Link to="/Profile_Blog">Blog</Link></li>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
                   <li><Link to="">About</Link></li>
